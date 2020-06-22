@@ -20,6 +20,7 @@ class RcModel:
 			"AZModel_premium+": "azboxhd",
 			"AZModel_ultra": "azboxelite",
 			"BrandOEM_fulan": "fulan",
+			"BrandOEM_cuberevo": "cuberevo",
 			"MachineBrand_FEGASUS": "ini6",
 			"MachineBrand_SPACE": "ini6",
 			"MachineBrand_XSARIUS": "fusionhd",
@@ -395,6 +396,8 @@ class RcModel:
 			boxType = "MachineBrand_ini3"
 		elif getBrandOEM() == "fulan":
 			boxType = "BrandOEM_fulan"
+		elif getBrandOEM() == "cuberevo":
+			boxType = "BrandOEM_cuberevo"
 		elif getMachineBuild().startswith("ebox"):
 			boxType = "MachineBuild_ebox"
 		boxType = self.machineBrands.get(getMachineBrand(), boxType)

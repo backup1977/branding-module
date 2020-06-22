@@ -192,6 +192,10 @@ if FULAN
 SUBDIRS += fulan
 endif
 
+if CUBEREVO
+SUBDIRS += cuberevo
+endif
+
 if FUSIONHD
 SUBDIRS += fusionhd
 endif

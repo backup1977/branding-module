@@ -571,6 +571,7 @@ BoxBranding/remotes/et9500/Makefile
 BoxBranding/remotes/et9x00/Makefile
 BoxBranding/remotes/formuler1/Makefile
 BoxBranding/remotes/fulan/Makefile
+BoxBranding/remotes/cuberevo/Makefile
 BoxBranding/remotes/g300/Makefile
 BoxBranding/remotes/gb0/Makefile
 BoxBranding/remotes/gb1/Makefile
